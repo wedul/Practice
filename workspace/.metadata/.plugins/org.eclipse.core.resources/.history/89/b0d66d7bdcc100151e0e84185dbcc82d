@@ -1,0 +1,15 @@
+package GZip;
+
+import java.io.File;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class GZipAllFiles {
+	public final static int THREAD_COUNT = 4;
+	
+	public static void main(String[] args){
+		ExecutorService pool = Executors.newFixedThreadPool(THREAD_COUNT);
+		
+		File f = new File("FileStream.txt");
+	}
+}

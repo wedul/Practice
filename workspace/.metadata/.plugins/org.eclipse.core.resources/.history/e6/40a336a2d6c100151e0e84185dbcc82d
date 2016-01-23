@@ -1,0 +1,7 @@
+package waitpractice;
+
+public class waitpractice {
+		public static void main(String args[]){
+			
+		}
+}

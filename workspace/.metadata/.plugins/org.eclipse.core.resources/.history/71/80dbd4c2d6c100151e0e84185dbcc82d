@@ -1,0 +1,10 @@
+package GZip;
+
+public class GZipRunnable {
+		public static void main(String args[]){
+			int a;
+			a=10;
+			(Object)a.wait();
+			System.out.println(a);
+		}
+}

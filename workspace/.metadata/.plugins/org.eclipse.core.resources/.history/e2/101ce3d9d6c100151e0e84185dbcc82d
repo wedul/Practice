@@ -1,0 +1,7 @@
+package GZip;
+
+public class GZipRunnable implements Runnable{
+		public static void main(String args[]){
+			
+		}
+}

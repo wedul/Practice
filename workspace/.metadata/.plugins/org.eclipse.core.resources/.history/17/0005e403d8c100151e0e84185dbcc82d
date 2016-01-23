@@ -1,0 +1,25 @@
+package GZip;
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class GZipRunnable implements Runnable{
+		private final File input;
+		
+		public GZipRunnable(File input){
+			this.input = input;
+		}
+
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			if(!input.getName().endsWith(".gz")){
+				File output = new File(input.getParent(), input.getName() +".gz");
+				if(!output.exists()){
+					InputStream in = new BufferedInputStream(new FileInputStream(input));
+				}
+			}
+		}
+}
