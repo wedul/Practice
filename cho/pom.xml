@@ -3,6 +3,17 @@
   <groupId>com.testcho</groupId>
   <artifactId>cho</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+<dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+  
   <build>
   <finalName>dbsafer</finalName>
 
@@ -19,6 +30,8 @@
   </plugin>
   
   </plugins>
-  
   </build>
+  
+  
+  
 </project>
