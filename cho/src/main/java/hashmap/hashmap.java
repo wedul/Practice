@@ -10,13 +10,13 @@ public class hashmap {
 	Map map;
 
 	map = new HashMap();
-	map.put("±¹¾î", 90);
-	map.put("¼öÇĞ", 80);
+	map.put("ìˆ˜í•™", 90);
+	map.put("ì˜ì–´", 80);
 	list.add(map);
 
 	map = new HashMap();
-	map.put("±¹¾î", 55);
-	map.put("¼öÇĞ", 65);
+	map.put("ì˜ì–´", 55);
+	map.put("êµ­ì–´", 65);
 	list.add(map);
 
 	System.out.println(list);
@@ -24,8 +24,8 @@ public class hashmap {
 	HashMap getMap = new HashMap();
 	
 	getMap = (HashMap)list.get(0);
-	System.out.println("1¹øÂ° ±¹¾î Á¡¼ö : " + getMap.get("±¹¾î"));
+	System.out.println("1. ìˆ˜í•™ì ìˆ˜ : " + getMap.get("ìˆ˜í•™"));
 	getMap = (HashMap)list.get(1);
-	System.out.println("2¹øÂ° ¼öÇĞÁ¡¼ö : " + getMap.get("¼öÇĞ"));
+	System.out.println("2. ì˜ì–´ì ìˆ˜ : " + getMap.get("ì˜ì–´"));
 }
 }
