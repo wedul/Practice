@@ -1,0 +1,15 @@
+package hashmap;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Hashmaptest {
+
+	@Test
+	public void testMain() {
+		fail("Not yet implemented");
+		System.out.println("success");
+	}
+
+}
